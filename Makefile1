@@ -1,0 +1,4 @@
+default:
+	gcc -I. -L. -Wall -g ray-tracer2.c -o ray-tracer -lm -ljpeg
+	gcc -I. -L. -Wall -lm -ljpeg -g ray-tracer.c -o ray-tracer
+	gcc -I. -L. -B -Wall -g -o filter filter.c
